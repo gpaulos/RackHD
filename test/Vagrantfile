@@ -35,7 +35,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
             ./mkenv.sh vagrant
             source myenv_vagrant
             python run_tests.py -test deploy/rackhd_source_install.py -v 9 -stack vagrant;echo
-            python run_tests.py -test deploy/rackhd_stack_init.py:rackhd_stack_init.test01_preload_sku_packs -stack vagrant -v 9;echo
+            python run_tests.py -test util/load_sku_packs.py -stack vagrant -v 9;echo
         SHELL
     end
 
