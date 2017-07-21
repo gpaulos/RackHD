@@ -30,6 +30,11 @@
                     "esxSwitchName": "vSwitch0"
                 },
                 {
+                    "device": "vmnic3",
+                    "esxSwitchName": "vSwitch0"
+                },
+
+                {
                     "device": "vmnic1",
                     "ipv4": {
                         "ipAddr": "192.168.100.95",
