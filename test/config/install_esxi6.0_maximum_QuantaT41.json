@@ -56,7 +56,8 @@
             "switchDevices": [
                 {
                     "switchName": "vSwitch0",
-                    "uplinks": ["vmnic2"]
+                    "uplinks": ["vmnic2"],
+                    "uplinks": ["vmnic3"]
                 },
                 {
                     "switchName": "vSwitch1",
